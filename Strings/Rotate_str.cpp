@@ -5,6 +5,7 @@ bool rotate_string(string s,string goal){
         return false;
     }
 
+    
     string doubled =s+s;
     if(doubled.find(goal)!=string::npos){
         return true;
