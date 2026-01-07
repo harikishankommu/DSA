@@ -40,7 +40,7 @@ ListNode* reverseLL(ListNode* head){
         nextNode=currNode->next;   //store next node
         currNode->next=prevNode;  //reverse the link
         prevNode=currNode;       //move prevNode and currNode one step forward
-        currNode=nextNode;       //move currNode one step forward
+        currNode=nextNode;       //move currNode one  step forward
     }
     return prevNode;
 }
