@@ -29,7 +29,7 @@ ListNode* BuildList(int n){
     return head;
 }
 
-ListNode* merge2Lists(ListNode* l1, ListNode* l2){
+ListNode* merge2Lists(ListNode* l1,ListNode* l2){
     if(l1==NULL) return l2;
     if(l2==NULL) return l1;
 
