@@ -13,7 +13,7 @@ int isFull(struct Queue *q) {
     return (q->r == q->size - 1);
 }
 
-int isEmpty(struct Queue *q) {
+int isEmpty(struct Queue *q){
     return (q->f == q->r);
 }
 
