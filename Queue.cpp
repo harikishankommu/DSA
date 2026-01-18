@@ -22,7 +22,7 @@ void enqueue(struct Queue *q, int val) {
         cout << "Queue is full" << endl;
     } else {
         q->r++;
-        q->arr[q->r] = val;
+        q->arr[q->r] =val;
     }
 }
 
