@@ -13,7 +13,7 @@ int isFull(struct Queue *q) {
     return (q->r == q->size - 1);
 }
 
-int isEmpty(struct Queue *q) {
+int isEmpty(struct Queue *q){
     return (q->f == q->r);
 }
 
@@ -22,7 +22,7 @@ void enqueue(struct Queue *q, int val) {
         cout << "Queue is full" << endl;
     } else {
         q->r++;
-        q->arr[q->r] = val;
+        q->arr[q->r] =val;
     }
 }
 
