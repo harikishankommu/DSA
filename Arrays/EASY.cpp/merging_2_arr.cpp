@@ -7,7 +7,7 @@ void merge_arr1_arr2(vector<int>&arr1,vector<int>&arr2,int n,int m){
     }
     sort(arr1.begin(),arr1.end());
 
-    for(int x:arr1){
+    for(auto &x:arr1){
         cout<<x<<" ";
     }
 }
