@@ -7,7 +7,7 @@ void reverse1(int i,int arr[],int n){
         return;
     }
     swap(arr[i],arr[n-i-1]);
-    reverse1(i+1,arr,n);
+    reverse1(i+1, arr,n);
 }
 
 
