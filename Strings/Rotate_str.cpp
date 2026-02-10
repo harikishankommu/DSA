@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 bool rotate_string(string s,string goal){
-    if(s.size()!=goal.size()){
+    if(s.size()!= goal.size()){
         return false;
     }
 
